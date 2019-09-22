@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bank</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+	<body>
+
+<div class="container">
+  <!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <a class="navbar-brand" id="homelink" href="#">Home</a> -->
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+ 
+        <li class="nav-item active">
+            <a class="nav-link home" id="homelink" data-linkname="home" href="#home">Home</span></a> 
+           
+              </li>
+            
+          </li>
+
+      <li class="nav-item">
+        <a class="nav-link loans" id="navbardrop" data-linkname="loans" href="#loans">Loans</a> 
+       
+          </li>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link deposits"data-linkname="deposits"  id="navbardropdeposits" href="#">Deposits</a> 
+       <li class="nav-item dropdown">
+         
+        </li>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link exchange" data-linkname="exchange" id="navbarexchange" href="#">Exchange Rate</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link calculators" data-linkname="calculators" id="navbarcalculators" href="#">Calculators</a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link our" data-linkname="ourCompany" id="our-company"href="#">Our Company</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link loans" id="navbardrop" data-linkname="onlineApplication" href="#">Online Application</a> 
+         
+            </li>
+          
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link loans" id="navbardrop" data-linkname="dynamicload2" href="#">Dynamic Load 2</a> 
+           
+              </li>
+            
+          </li> -->
+    </ul>
+   
+
+   
+  </div>
+</nav>
+
+
+     <!-- Welcome Image -->
+     <div class="row block home welcome welcome-page active" data-blockname="home">
+        <div class="welcome-body">
+          <h5 class="welcome-title" id="h5">Your Perfect Banking Partner</h5>
+         
+          <p class="welcome-text">A tradition of trust!</p>
+        </div>
+        <center><img src="./images/Bank_banks.jpg" class="bank-img" alt="picture of Bank"></center>
+      </div>
+
+
+
+
+<!-- Loans Rows -->
+<div class="row block loans" id="loansMenu"  data-blockname="dynamicload">
+  Dyn
+</div>
+<div class="row block loans" id="loansMenu"  data-blockname="dynamicload2">
+  Dyn 2
+  </div>
+ <div class="row block loans" id="loansMenu"  data-blockname="loans">
+  
+    <div class="card" style="width:20%;height:20%;" id="card1">
+        <img class="card-img-top" src="./images/consumerLoans.jpg" style="margin-bottom: 20px"alt="Card image cap">
+        <div class="card-body"  >
+            <h5 class="card-title" >Consumer Loan</h5>
+        <!--  <p class="card-text"></p>  -->
+           <!-- Trigger the modal with a button -->
+ <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal11" id="loansDetails1">More details</button>
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal11" role="dialog">
+   <div class="modal-dialog">
+   
+     <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+       </div>
+       <div class="modal-body">
+         <p id="loansDetails1Text">Some text in the modal.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+     
+   </div>
+ </div>
+        </div>
+    </div>
+<br/>
+<div class="card" style="width:20%;height:20%" id="card2">
+    <img class="card-img-top" src="./images/carLoans.jpg" style="margin-bottom: -20px" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Car Loan</h5>
+          <p class="card-text"></p> 
+
+      <!-- Trigger the modal with a button -->
+ <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal12" id="loansDetails2">More details</button>
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal12" role="dialog">
+   <div class="modal-dialog">
+   
+     <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+       </div>
+       <div class="modal-body">
+         <p id="loansDetails2Text">Some text in the modal.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+     
+   </div>
+ </div>
+    </div>
+</div>
+<br>
+<div class="card" style="width:20%;height:20%" id="card3">
+    <img class="card-img-top" src="./images/mortgageloans.png" style="margin-bottom: -20px" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Mortgage Loan</h5>
+  <!-- Trigger the modal with a button -->
+ <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal13" id="loansDetails3">More details</button>
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal13" role="dialog">
+   <div class="modal-dialog">
+   
+     <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+       </div>
+       <div class="modal-body">
+         <p id="loansDetails3Text">Some text in the modal.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+     
+   </div>
+ </div>
+    </div>
+</div>
+<br/>
+
+
+
+<div class="card" style="width:20%;height:20%" id="card4">
+    <img class="card-img-top" src="./images/loanswithdeposit.jpg" style="margin-bottom: -10px" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Loan with Deposit</h5>
+       <!-- Trigger the modal with a button -->
+ <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal14" id="loansDetails4">More details</button>
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal14" role="dialog">
+   <div class="modal-dialog">
+   
+     <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+       </div>
+       <div class="modal-body">
+         <p id="loansDetails4Text">Some text in the modal.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+     
+   </div>
+ </div>
+    </div>
+</div>
+<br>
+<div class="card" style="width:20%;height:30%" id="card5">
+    <img class="card-img-top" src="./images/housingloan.jpg" style="margin-bottom: -10px" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Housing Loan</h5>
+       <!-- Trigger the modal with a button -->
+ <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal15" id="loansDetails5">More details</button>
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal15" role="dialog">
+   <div class="modal-dialog">
+   
+     <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+       </div>
+       <div class="modal-body">
+         <p id="loansDetails5Text">Some text in the modal.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+     
+   </div>
+ </div>
+    </div>
+</div>
+<br>
+<div class="card" style="width:20%;height:30%" id="card6">
+    <img class="card-img-top" src="./images/overdraft.jpg" style="margin-bottom:30px" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Overdraft</h5>
+      <!-- Trigger the modal with a button -->
+ <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal16" id="loansDetails6">More details</button>
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal16" role="dialog">
+   <div class="modal-dialog">
+   
+     <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+       </div>
+       <div class="modal-body">
+         <p id="loansDetails6Text">Some text in the modal.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+     
+   </div>
+ </div>
+    </div>
+</div>
+    <!--  <div id="row onlineApplication">
+     <button type="button" class="btn btn-info" id="onlineApplicationButton">Online Application</button> 
+        
+
+     </div>  -->
+   
+    
+ 
+	
+</div> 
+
+
+<div class="block" data-blockname="onlineApplication" id="onlineApplicationInfo">
+  
+
+   <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
+        <div class="containerApply">
+        <a class="navbar-brand-1" href="#">APPLY ONLINE</a>
+       
+       </div>
+    </nav> 
+    <main class="my-form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-header"></div>
+                            <div class="card-body">
+                                <form name="my-form" method="">
+                                    <div class="form-group row">
+                                        <label for="full_name" class="col-md-4 col-form-label text-md-right">Please enter Your monthly salary</label>
+                                        <div class="col-md-6">
+                                            <input type="number" name="salary" id="monthlySalary" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group row">
+                                        <label for="email_address" class="col-md-4 col-form-label text-md-right">Please enter the repayment period of the loan(in months)</label>
+                                        <div class="col-md-6">
+                                            <input type="number" id="repayment_period" required>
+                                        </div>
+                                       
+                                        <div class="col-md-6 offset-md-4">
+                                         
+                                            <input  button type="button" class="btn btn-primary" id="calculateAmount" value="Calculate Amount"> 
+                                           
+                                                                      
+                                            </button>
+                                           
+                                        </div>
+                                        <p > Maximum amount that You can apply for:  <font color="red" size="6"><span  id="maxAm"></span></font></p>
+                                       <!--  <p>If You want to continue with the application please go on to the next step.</p> -->
+                                        
+                                    </div>
+                            
+                      <!--             
+
+                                      
+                                        <div class="col-md-6 offset-md-4">
+                                         
+                                            <input  button type="button" class="btn btn-primary" id="continue" value="CONTINUE"> 
+                                           
+                                                                      
+                                            </button>
+                                        </div> -->
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+          </main>
+    <div id="continueOnlineApp">
+    <main class="my-form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-header">*required fields</div>
+                            <div class="card-body">
+                                <form name="my-form" method="">
+                                    <div class="form-group row">
+                                        <label for="full_name" class="col-md-4 col-form-label text-md-right">Full Name</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="full_name" class="form-control" name="full-name" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group row">
+                                        <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
+                                        <div class="col-md-6">
+                                            <input type="email" id="email_address" class="form-control" name="email-address" required>
+                                        </div>
+                                    </div>
+    
+                                  
+    
+                                    <div class="form-group row">
+                                        <label for="phone_number" class="col-md-4 col-form-label text-md-right">Phone Number</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="phone_number" class="form-control" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group row">
+                                        <label for="present_address" class="col-md-4 col-form-label text-md-right">Present Address</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="present_address" class="form-control"required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group row">
+                                        <label for="permanent_address" class="col-md-4 col-form-label text-md-right">Permanent Address</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="permanent_address" class="form-control" name="permanent-address">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="city" class="col-md-4 col-form-label text-md-right"required>City</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="city" class="form-control" name="city" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group row">
+                                        <label for="employment" class="col-md-4 col-form-label text-md-right"><abbr
+                                                    title="employment"></abbr> Employment</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="employment" class="form-control" name="employment"required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="closest branch" class="col-md-4 col-form-label text-md-right"><abbr
+                                                    title="closest branch"></abbr> Closest branch</label>
+                                        <div class="col-md-6">
+                                            <select id="closestBranch">
+                                                <option value= ""disabled selected hidden>Choose</option> 
+                                                <option value = "Skopje">Skopje</option>
+                                                <option value = "Bitola">Bitola</option>
+                                                <option value = "Kumanovo">Kumanovo</option>
+                                                <option value = "Prilep">Prilep</option>
+                                                <option value = "Tetovo">Tetovo</option>
+                                                <option value = "Veles">Veles</option>
+                                                <option value = "Shtip">Shtip</option>
+                                                <option value = "Gostivar">Gostivar</option>
+                                                <option value = "Strumica">Strumica</option>
+                                                <option value = "Kichevo">Kichevo</option>
+                                                <option value = "Kavadarci">Kavadarci</option>
+                                                <option value = "Kochani">Kochani</option>
+                                             
+
+                                                
+                                                
+                                              </select>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="form-group row">
+                                        <label for="employment" class="col-md-4 col-form-label text-md-right"><abbr
+                                                    title="employment"></abbr> Comment-note</label>
+                                        <div class="col-md-6">
+                                            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+                                                
+                                                </textarea>
+                                        </div>
+                                    </div>
+                                    <p>The personal data that will be left is a guaranteed right of access, modification and / or deletion in accordance with the law on personal data. All data left on this page solely intended for use by Halk Bank AD. These data are stored in a form that allows the identification and at any time on request from the client submitted by e -mail or email can be deleted. I give a permission to the bank retroactivly to inform me about conditions that are field of my interest.</p>
+                                   
+                                    <div>
+                                        
+                                        <b><span>By filling these data confirm that:</span></b>
+                                        <div class="form-group">
+                                            <input type="radio" id="radio1" class="potvrda ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" name="model.Agreement" ng-model="model.Agreement" ng-value="true" value="true">
+                                            <label class="labela ng-isolate-scope" data-label-for="I_AGREE_THAT_MY_PERSONAL_DATA_WILL_BE_USED_FOR_PROMOTIONAL_ACTIVITIES_AND_IMPROVEMENT_OF_THE_BANKS_SERVICES"><span  class="ng-binding ng-scope">I agree my personal data to be used for promotional activities and improve the services of the Bank</span></label>
+                
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="radio" id="radio2" class="potvrda ng-valid ng-not-empty ng-dirty ng-touched" name="model.Agreement" ng-model="model.Agreement" ng-value="false" value="false">
+                                            <label class="labela ng-isolate-scope" data-label-for="I_DO_NOT_AGREE_THAT_MY_PERSONAL_INFORMATION_WILL_BE_USED_FOR_PROMOTIONAL_ACTIVITIES"><span class="ng-binding ng-scope">I don't agree my personal data to be used for promotional activities and improve the services of the Bank</span></label>
+                                        </div>
+                                        
+                                     
+
+                                    </div>
+                                    
+
+
+
+
+                                        <div class="col-md-6 offset-md-4">
+                                         
+                                            <input  button type="button" class="btn btn-primary" id="confirmApp" value="CONFIRM APPLICATION"> 
+                                           
+                                                                      
+                                          </button>
+                                         
+                                          
+                                           
+                                        </div>
+                                        
+                                    </div>
+                                </form>
+                                <h5 id="confirmAppMessage"><font color="red" size="6"></font></h5>
+                            </div>
+                        </div>
+                </div>
+            </div>
+          </main>
+        </div>
+        </div> 
+
+    
+      
+
+
+
+     
+
+<!-- Deposits Menu -->
+<div class="row block deposits" data-blockname="deposits" id="rowDeposits">
+<div class="card" style="width:20%;height:20%;" id="card7">
+    <img class="card-img-top" src="./images/General Saving With Fixed Interest Rates.jpg"  style="margin-bottom: -10px"  alt="Card image cap">
+    <div class="card-body"  >
+        <h5 class="card-title" >General Saving With Fixed Interest Rates</h5>
+     <p class="card-text"></p> 
+      <!--  <a href="#"  class="btn btn-secondary" id="depositButt1">More Details</a>  -->
+
+ <!-- Trigger the modal with a button -->
+ <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal1" id="depDetails1">More details</button>
+
+ <!-- Modal -->
+ <div class="modal fade" id="myModal1" role="dialog">
+   <div class="modal-dialog">
+   
+     <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+       </div>
+       <div class="modal-body">
+         <p id="depDetails1Text">Some text in the modal.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+     
+   </div>
+ </div>
+     </div>
+</div>
+<br/>
+<div class="card" style="width:20%;height:20%" id="card8">
+<img class="card-img-top" src="./images/Evolve-Deposit.jpg" style="margin-bottom: -20px" alt="Card image cap">
+<div class="card-body">
+    <h5 class="card-title">Evolve-Deposit</h5>
+      <p class="card-text"></p> 
+      <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal2" id="depDetails2">More details</button>
+<!-- Modal -->
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <p id="depDetails2Text">Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+    </div>
+</div>
+<br>
+<div class="card" style="width:20%;height:20%" id="card9">
+<img class="card-img-top" src="./images/Open Deposit.jpg" style="margin-bottom: -20px" alt="Card image cap">
+
+  <div class="card-body">
+      <h5 class="card-title">Evolve-Deposit</h5>
+        <p class="card-text"></p> 
+        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal3" id="depDetails3">More details</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal3" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            
+          </div>
+          <div class="modal-body">
+            <p id="depDetails3Text">Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  
+      </div>
+  </div>
+
+<br/>
+
+
+
+<div class="card" style="width:20%;height:20%" id="card10">
+<img class="card-img-top" src="./images/Children Saving.jpg" style="margin-bottom: -10px" alt="Card image cap">
+<div class="card-body">
+    <h5 class="card-title">Children Saving</h5>
+   <!--  <p class="card-text">Some text</p> -->
+   <p class="card-text"></p> 
+   <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal4" id="depDetails4">More details</button>
+<!-- Modal -->
+<div class="modal fade" id="myModal4" role="dialog">
+ <div class="modal-dialog">
+ 
+   <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+     </div>
+     <div class="modal-body">
+       <p id="depDetails4Text">Some text in the modal.</p>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     </div>
+   </div>
+   
+ </div>
+</div>
+
+ </div>
+</div>
+</div>
+<br>
+
+
+<div class="showDetails">
+</div>
+  
+
+<!-- Our Company text -->
+<div class="row block ourCompanyText" data-blockname="ourCompany">
+  <h4>DM BANK AD, SKOPJE</h4>
+  <p>DM BANK is one of the biggest and strongest brand on the Macedonian financial market. </p>
+  <p>With its 26 years’ history as a financial institution in Macedonia, here’s where DM BANK AD Skopje stands today:</p>
+   <ul>
+      <li>We are fourth largest bank on the market by assets, being 668, 3 mill EUR.</li>
+      <li>We are present all over the country, offering services to our clients through our wide branch network that includes 13 branches.</li>
+      <li>We have over 500 employees.</li>
+      <li>Our ATMs network includes 140 ATMs</li>
+      <li>We have widely distributed POS terminals over our trade partners, counting 6.385 in total.</li>
+      <li>We serve the country’s nation with a broad range of financial services, including personal banking, credit cards, housing loans, consumer loans, savings and investments, business loans, domestic and foreign payment processing.</li>
+      <li>We are a leader in offering tailored banking services; introducing new technologies on the financial market; providing fast service through the high developed and modern alternative channel platform.</li>
+    </ul>
+     <h4>OUR VISION</h4>
+     <p>To be one of the leading banks in the region, able to execute all universal banking requirements while asserting a strong presence in retail services.     </p>
+     <h4>OUR MISSION</h4>
+     <p>To continuously create value for customers, shareholders and employees by providing all banking services efficiently with an awareness and understanding of corporate social responsibilities and duties; to contribute to the development of the banking sector and capital markets; to establish a well-respected market position in the region and in the global banking industry</p>
+       <h4>OUR CORPORATE VALUES</h4>
+      <ul>
+          <li>Customer focus</li>
+          <li>Reliability</li>
+          <li>Integrity and respect</li>
+          <li>Fairness, trust and transparency</li>
+          <li>Operational excellence</li>
+          <li>Innovation</li>
+          <li>Value creation</li>
+          <li>Productivity</li>
+          <li>Openness to change</li>
+          <li>Sharing knowledge and experience</li>
+          <li>Social responsibility awareness</li>
+
+
+      </ul> 
+      <h4>Contact Us</h4>
+      <center>
+          <h5>Headquarters</h5>
+          <p>11th October St. 33 А, Skopje 1000</p>
+          
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=sedc&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+      </center>
+
+      
+    </div>
+
+  <div class="row block calculators" data-blockname="calculators">
+  <div class="loansCalc">
+       
+    <p>
+          <center>
+          <form name=calc method=POST>
+          <table width=60% border=0>
+          <tr><th bgcolor="#aaaaaa" width=50%><font color=#000000>Loan calculator</font></th>
+          <th bgcolor="#aaaaaa" width=50%><font color=#000000>Data Entry</font></th></tr>
+          <tr><td bgcolor="#eeeee">Loan Amount</td><td bgcolor="#778899" align=right><input
+          type=text name=loan size=10></td></tr>
+          <tr><td bgcolor="#eeeee">Loan Length in Months</td><td bgcolor="#778899"
+          align=right><input type=text
+          name=months size=10></td></tr>
+          <tr><td bgcolor="#eeeee">Interest Rate</td><td bgcolor="#778899" align=right><input
+          type=text name=rate
+          size=10></td></tr>
+          <tr><td bgcolor="#eeeee">Monthly Payment</td><td bgcolor="#778899"
+          align=right><!-- <em>Calculated</em>  --><input
+          type=text name=pay size=10></td></tr>
+          <tr><td  bgcolor="#B0E0E6"align=center><input type="button" class="btn btn-secondary" onClick='showpay()'
+          value=Calculate></td><td bgcolor="#F0E68C" align=center><input type=reset button type="button" class="btn btn-dark"
+          value=Reset></td></tr>
+          </table>
+          </form>
+          <font size=1>Enter only numeric values (no commas), using decimal points
+          where needed.<br>
+          Non-numeric values will cause errors.</font>
+          </center>
+          
+         <!--  <p align="center"><font face="arial" size="-2">This free script provided by</font><br> -->
+         <!--  <font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+          Kit</a></font></p> -->
+
+
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="depositCalc">
+       <center>
+          <form method=POST>
+       <table width=60% border=0>
+         <tr><th bgcolor="#aaaaaa" width=50%><font color=#000000>Deposit Calculator</font></th>
+             <th bgcolor="#aaaaaa" width=50%><font color=#000000>Data Entry</font></th></tr>
+        
+         <tr><td bgcolor="#eeeee"><font color="blue">Amount<font></td>
+          <td bgcolor="#778899" align=right><input type=text id="p" size=10></td></tr>
+          <tr><td bgcolor="#eeeee"><font color="blue">Interest Rate (%)<font></td>
+            <td bgcolor="	#778899" align=right><input type=text id="r" size=10></td></tr>
+            <tr><td bgcolor="#eeeee"><font color="blue"><label>No. of Years</label><font></td>
+              <td bgcolor="#778899" align=right><input type=text id="t" size=10></td></tr>
+              <!-- <tr><td bgcolor="#eeeee"><font color="blue"><label>Compunding Times Per Year</label><font></td>
+                <td bgcolor="blue" align=right><input type=text id="n" size=10></td></tr> -->
+
+                <tr><td  bgcolor="#B0E0E6"align=center><input type="button" class="btn btn-secondary" onClick='calculate()'
+                  value=Calculate></td><td bgcolor="#F0E68C" align=center><input type=reset button type="button" class="btn btn-dark"
+                  value=Reset id="reset"></td></tr>
+                  <tr><td colspan="2"><center><h4 id="result"></h4></center></tr>
+     
+   
+      </table>
+    </form>
+    </center>
+  </div>
+  </div>
+  <div class="row block exchange converter" data-blockname="exchange">
+      
+    <div class="table table-striped table-hover">
+       
+         <table border="0" id="tableRates">
+            <tr>
+                <th>CURRENCY</th>
+                <th>BUYING</th>
+                <th>MIDDLE</th>
+                <th>SELLING</th>
+               </tr>
+            
+
+         </table>
+         <hr width="40%" align="left">
+         <p id="dateRates"class="btn btn-primary">Date:</p>
+
+
+    </div> 
+  
+        
+     <div class="row block exchange currencyConverter" data-blockname="exchange" id="currencyConverter">
+      <form  id="converter1">
+     
+           
+       <table class="table table-striped table-hover table-sm" id="tableConverter" border=0 >
+   
+          <tr><th class="currencyTop">Currency Converter</th></tr>
+
+
+       <tr><td>Currency:
+       <select id="currency1">
+          <option value="MKD">MKD</option>
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="CHF">CHF</option>
+          <option value="SEK">SEK</option>
+          <option value="NOK">NOK</option>
+          <option value="JPY">JPY</option>
+          <option value="DKK">DKK</option>
+          <option value="CAD">CAD</option>
+          <option value="AUD">AUD</option>
+        </select>
+      </td></tr>
+            
+        <tr><td>Enter Amount:<input type="number" id="currValue"></td></tr>
+
+        <tr><td><input type="button" class="btn btn-primary"id="submit" value="Convert!"> </td></tr>
+        <tr><td><input type="button" button type="button" class="btn btn-primary"  id="resetConverter" onclick="resetTable()" value="Clear Data"></td>
+        </tr> 
+      
+        
+        </table>
+           </form>
+       
+        
+        
+  </div>
+
+</div>
+
+</div>
+
+    </body>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</html>

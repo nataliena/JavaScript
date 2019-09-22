@@ -1,0 +1,81 @@
+[
+    {
+      "id" : "01",
+      "name" : "General Saving With Fixed Interest Rates",
+       "minimumAmountOfDepositing" : "3.000 MKD /50 EUR /50 USD",
+       "paymentOfTheInterest":"On the maturity day or monthly",      
+       "typeOfInterestRate" : "Fixed",
+      "tenor" : "Up to 36 months",
+      "methodOfCalculationOfTheInterest" : "proportional method 28/31-365/366)",
+      "redepositing" : "At maturity date the deposit is automatically redepositing, under the agreement.",
+      "additionalInvestment" : "Additional investment on the deposit before the maturity day is not allowed",
+      "partialWithdrawal" : "Partial withdrawal from the deposit before the expiring day is not allowed",
+      "earlyTermination":"In early termination of the contract of deposit the Bank calculates interest with interest rate on demand according to the valid Tariff for the whole time in which the funds were deposited. Also, the depositor is obliged to return the bank the difference between interest paid and new calculated interest or bank it will deduct from the original deposit.",
+     
+      "requiredDocuments" : [
+                            "1.At account opening, valid ID document is presented (ID card or passport)",
+                            "2.Upon account opening, the client receives Deposit agreement"
+                             ]     
+        
+    },
+    {
+     "id" : "02",
+     "name" : "Evolve Deposit",
+      "minimumAmountOfDepositing" : "3.000 MKD /50 EUR ",
+      "paymentOfTheInterest":"At the end of the maturity period",      
+      "typeOfInterestRate" : "Fixed",
+      "tenor" : "24 months",
+      "methodOfCalculationOfTheInterest" : "Proportional method ",
+      "redepositing" : "At maturity, the deposit is not redepositing in accordance with the agreement",
+      "additionalInvestment" : "Possibility of additional deposits on the deposit before the expiration date",
+      "partialWithdrawal" : "Partial withdrawal from the deposit before the expiring day is not allowed",
+      "earlyTermination":"In case of early termination of the deposit, the bank calculates interest on demand according to the Decision on interest rates of the Bank.",
+     
+      "requiredDocuments" : [
+                            "1.At account opening, valid ID document is presented (ID card or passport)",
+                            "2.Upon account opening, the client receives Deposit agreement"
+                             ]     
+                             
+    },
+    {
+      "id" : "03",
+      "name" : "Open Deposit",
+       "minimumAmountOfDepositing" : "3.000.00 denars/50 euros ",
+       "paymentOfTheInterest":"Payment of the interest on the maturity day ",      
+       "typeOfInterestRate" : "Fixed",
+      "tenor" : "12 months",
+      "methodOfCalculationOfTheInterest" : "Compound method ",
+      "redepositing" : "At maturity, the deposit is not redepositing in accordance with the agreement",
+      "additionalInvestment" : "Can be made unlimited additional investment during the period of the contract ",
+      "partialWithdrawal" : "Partial withdrawal from the deposit before the expiring day is not allowed",
+      "earlyTermination":"In early termination of the contract the Bank calculates interest with interest rate on demand according to the valid Decision ",
+     
+      "requiredDocuments" : [
+                            "1.At account opening, valid ID document is presented (ID card or passport)",
+                            "2.Upon account opening, the client receives Deposit agreement"
+                             ]     
+                                   
+    },
+    {
+      "id" : "04",
+      "name" : "Children Savings",
+      "minimumAmountOfDepositing" : "31.000.00 denar or 20,00 euro",
+      "paymentOfTheInterest":"On the maturity day",      
+      "typeOfInterestRate" : "Fixed",
+      "tenor" : "Up to 36 months",
+      "methodOfCalculationOfTheInterest" : "proportional method (28/31-365/366)",
+      "redepositing" : "At maturity date the deposit is automatically redepositing, under the agreement.",
+      "additionalInvestment " : "Opportunity for activating of standing order for additional payments",
+      "partialWithdrawal" : "Partial withdrawal from the deposit before the expiring day is not allowed",
+      "earlyTermination":"In early termination of the contract the Bank calculates interest with interest rate on demand according to the valid Decision",
+     
+      "requiredDocuments" : [
+                            "1.When opening the deposit, a valid ID card for the legal representatives, the guardian or the payer",
+                             "2.A birth certificate (copy) in order to identify the minor",
+                            "3.Upon account opening, the client receives Deposit agreement"
+                             ]     
+                               
+    } 
+      
+
+  ]
